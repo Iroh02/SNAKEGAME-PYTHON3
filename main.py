@@ -33,7 +33,7 @@ while wannplay:
      score.gameover()
 #          detect collision
      for seg in snake.snake[1:]:
-         if snake.snake[2].distance(seg)<10:
+         if snake.snake[0].distance(seg)<10:
              score.gameover()
              isgameon=False
  choice= screen.textinput(title="SNAKE GAME",prompt="Play again?Y/N")
