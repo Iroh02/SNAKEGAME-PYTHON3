@@ -28,7 +28,7 @@ while wannplay:
         snake.extend()
         score.increasescore()
 
-    if snake.snake[0].xcor()>300 or snake.snake[0].xcor()<-320 or snake.snake[0].ycor()>270 or snake.snake[0].ycor()<-270 :
+    if snake.snake[0].xcor()>300 or snake.snake[0].xcor()<-320 or snake.snake[0].ycor()>270 or snake.snake[0].ycor()<-260 :
      isgameon=False
      score.gameover()
 #          detect collision
